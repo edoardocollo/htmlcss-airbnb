@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .card {
   height: 300px;
   width: 600px;
-  border: 1px solid black;
   overflow: hidden;
   position: relative;
 }
@@ -13,4 +17,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: 2px 2px black;
 }
