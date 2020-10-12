@@ -8,9 +8,19 @@
   width: 600px;
   overflow: hidden;
   position: relative;
+  margin: 20px 0;
+  box-shadow: 3px 3px 4px 2px #000000;
 }
 .card img {
   width: 600px;
+}
+.card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 .card span.city_name {
   position: absolute;
